@@ -48,8 +48,8 @@ MID_ENTER_FACTORY_RESET | 0x12 | 锁板->模块 | 锁板请求模组进入恢复
 MID_ENTER_FACTORY_TEST | 0x13 | 锁板->模块 | 锁板请求模组进入产测模式
 MID_GET_NET_DATETIME | 0x14 | 锁板->模块 | 锁板请求模组获取网络时间
 MID_DOOR_BELL_EVENT | 0x15 | 锁板->模块 | 锁板通知模组触发了门铃事件
-MID_SET_LCD_ID | 0x16 | 锁板->模块 | 锁板设置模组LCD屏幕ID（对接多家屏幕，用指令来切换）
-MID_MESSAGE_UPLOAD | 0x17 | 锁板->模块 | 锁板请求模组进行消息上报（开锁，关锁，报警等）
+MID_SET_LCD_ID | 0x16 | 锁板->模块 | 锁板设置模组LCD屏幕ID
+MID_MESSAGE_UPLOAD | 0x17 | 锁板->模块 | 锁板请求模组进行消息上报
 MID_NET_CONFIG_RESULT | 0x40 | 模块->锁板 | 模组通知锁板配网结果
 MID_FACTORY_RESET_RESULT | 0x42 | 模块->锁板 | 模组通知锁板恢复出厂设置结果
 MID_FACTORY_TEST_RESULT | 0x43 | 模块->锁板 | 模组通知锁板产测结果
